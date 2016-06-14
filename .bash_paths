@@ -1,0 +1,9 @@
+# Android
+# Add things like ADB (platform-tools) and DDMS (tools) to the PATH
+
+PATH=$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools:$PATH
+
+
+# Go Path
+
+export GOPATH=$HOME/work
