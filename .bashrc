@@ -151,7 +151,7 @@ if [ "$color_prompt" = yes ]; then
     On_ICyan="\[\033[0;106m\]"    # Cyan
     On_IWhite="\[\033[0;107m\]"   # White
     
-    PS1="${debian_chroot:+($debian_chroot)}$Green$Date $Time24h$Purple$(__git_ps1) $Cyan$PathShort$Color_Off $ "
+    PS1="${debian_chroot:+($debian_chroot)}$IGreen$Date $Time24h$IPurple$(__git_ps1) $ICyan$PathShort$Color_Off $ "
     #PS1='${debian_chroot:+($debian_chroot)}\[\e[0;32m\]\d \t \[\e[0;36m\]\w\[\e[0m\] $ '
 
     #Default -
